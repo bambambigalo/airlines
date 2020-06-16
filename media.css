@@ -1,0 +1,131 @@
+@media all and (max-width: 768px){
+
+	.content {
+	padding-left: 0px;
+	}
+	.riht_box {
+		flex-basis: 200px;
+	}
+	.box_nav {
+		margin-left: 0px;
+	}
+
+	.box_midle1 {
+		flex-basis: 200px;
+	}
+
+	.box_midle_mid {
+		flex-basis: 200px;
+	}
+
+
+	.box_midle_bott {
+		flex-basis: 200px;
+	}
+
+
+	.subscription {
+		margin-left: 0px;
+	}
+
+}
+@media all and (max-width: 425px){
+
+	.header {
+		display: flex;
+		flex-direction: column;
+	}
+	.riht_box {
+		flex-basis: 20px;
+		justify-content: center;
+		padding: 5px;
+	}
+	.watch_price {
+		flex-basis: 600px;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	/*navigation=======================================================================================================================*/
+
+	.box_nav {
+		display: flex;
+		margin-top: 5px;
+	}
+		.nav{
+		flex-direction: column;
+		flex-basis: 300px;
+		margin-right: 0px;
+	}
+	.nav_riht {
+		flex-direction: column;
+		flex-basis: 300px;
+		margin-left: 0px;
+	}
+	.at_the_price {
+	background-position: 170px 15px;
+	}
+	.airlines {
+	background-position: 190px 15px;
+	}
+	.airport {
+	background-position: 180px 15px;
+	}
+	.times {
+	background-position: 170px 15px;
+	}
+	/*midle============================================================================================================================*/
+	.midle_box {
+	margin-top: 10px;
+	}
+	.nord {
+	padding-left: 5px;
+	}
+	.box_info {
+		padding-left: 5px;
+	}
+	.box_left {
+		flex-basis: 200px;
+	}
+
+	.in_the_way {
+		margin-bottom: 5px;
+	}
+	.box_midle {
+		margin-left: 10px;
+		flex-basis: 160px;
+	}
+	.box_riht {
+		flex-basis: 260px;
+	}
+	.pr {
+		font-size: 26px;
+	}
+	.butt_by {
+		margin-left: 40px;
+	}
+	/*box_midle======================================================================================================================*/
+	.seven{
+	padding-left: 5px;
+	}
+	/*box_bottom======================================================================================================================*/
+	.svn{
+	padding-left: 5px;
+	}
+	.mail {
+		flex-direction: column;
+		padding-left: 5px;
+	}
+	.options {
+		list-style-type: none;
+		display: flex;
+	}
+	.e_mail {
+		
+		margin-right: 200px;
+		padding:10px;
+	}
+	.subscription {
+		margin-top: -10px;
+		text-align: center;
+	}
+}

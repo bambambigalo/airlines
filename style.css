@@ -1,0 +1,455 @@
+body{
+	background-color: #F4F3E6;
+	display: flex;
+	margin: 0px;
+}
+
+.box {
+	max-width: 1440px;
+	margin: 0px 0px auto;
+	padding: 0px 0px;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	
+}
+/*header*/
+.header {
+	
+	background-color: #FFFFFF;
+	display: flex;
+	
+}
+.box_buttons {
+	
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-end;
+	padding-bottom: 0px;
+
+}
+.button {
+	margin-top: 15px;
+	flex-basis: 125px;
+	background-color: #FFFFFF;
+	flex-direction: column;
+	margin-bottom: 0px;
+}
+.price {
+	padding-top: 0px;
+	font: 19px  calibri;
+	font-weight: bold;
+	border-right: solid 1px #AFAFAF;
+	text-align: center;
+	
+}
+.date {
+	font:14px calibri;
+	border-right: solid 1px #AFAFAF;
+	text-align: center;
+	color: #AEAEAE;
+	padding-bottom: 0px;
+	}
+.button_green {
+	margin-top: 15px;
+	flex-basis: 125px;
+	background-color: #FFFFFF;
+	flex-direction: column;
+	border-bottom:  solid 3px #EDC669 ;
+	padding-bottom: 15px;
+	
+}
+
+.price_1 {
+	padding-top: 0px;
+	font: 19px calibri;
+	font-weight: bold;
+	border-right: solid 1px #AFAFAF;
+	text-align: center;
+	color: green;
+}
+.riht_box {
+	
+	flex-basis: 275px;
+	text-align: center;
+	display: flex;
+	padding: 15px 10px 20px 10px;
+	justify-content: flex-end;
+}
+
+	
+.watch_price {
+	
+	flex-basis: 190px;
+	border-radius: 3px;
+	border: solid 1px #D3D1D4;
+	background-color: #FFFFFF;
+	padding: 5px;
+	text-align:center;
+	font: 16px calibri;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+}
+/*navigation*/
+
+.content {
+	padding-left: 160px;
+	display: flex;
+	flex-direction: column;
+	max-width: 1440px;
+}
+.box_nav {
+	margin: 25px 0px 0 0px;
+	display: flex;
+}
+.nav {
+	flex-basis: 380px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 5px;
+}
+.nav_riht {
+	margin-left: 5px;
+	display: flex;
+	flex-basis: 380px;
+	justify-content: space-between;
+}
+
+.at_the_price {
+	font-family: calibri;
+	padding: 10px 30px 10px 10px;
+	border-radius: 5px;
+	text-align: center;
+	border: solid 1px #D3D1D4;
+	background-color: #F4F3E6;
+	background-image: url(https://www.seekpng.com/png/full/824-8246823_png-file-svg-drop-down-arrow-png.png);
+	background-repeat: no-repeat;
+	background-size: 12px 8px;
+	background-position: 73px 15px;	
+}
+.straight_lines {
+	font-family: calibri;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+	border: solid 1px #D3D1D4;
+	background-color: #F4F3E6;
+}
+.luggage {
+	font-family: calibri;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+	border: solid 1px #D3D1D4;
+	background-color: #F4F3E6;
+}
+.airlines {
+	font-family: calibri;
+	padding: 10px 35px 10px 10px;
+	border-radius: 5px;
+	text-align: center;
+	border: solid 1px #D3D1D4;
+	background-color: #F4F3E6;
+	background-image: url(https://www.seekpng.com/png/full/824-8246823_png-file-svg-drop-down-arrow-png.png);
+	background-repeat: no-repeat;
+	background-size: 12px 8px;
+	background-position: 120px 15px;
+}
+.airport {
+	font-family: calibri;
+	padding: 10px 35px 10px 10px;
+	border-radius: 5px;
+	text-align: center;
+	border: solid 1px #D3D1D4;
+	background-color: #F4F3E6;
+	background-image: url(https://www.seekpng.com/png/full/824-8246823_png-file-svg-drop-down-arrow-png.png);
+	background-repeat: no-repeat;
+	background-size: 12px 8px;
+	background-position: 96px 15px;
+}
+.times {
+	font-family: calibri;
+	padding: 10px 30px 10px 10px;
+	border-radius: 5px;
+	text-align: center;
+	border: solid 1px #D3D1D4;
+	background-color: #F4F3E6;
+	background-image: url(https://www.seekpng.com/png/full/824-8246823_png-file-svg-drop-down-arrow-png.png);
+	background-repeat: no-repeat;
+	background-size: 12px 8px;
+	background-position: 60px 15px;
+}
+/*midle content*/
+ul {
+	padding-left: 0;
+}
+.midle_box {
+	
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+}
+.airlines_top {
+	display: flex;
+	list-style-type: none;
+	margin-top: 15px;
+}
+/*top box*/
+.info {
+
+	flex-basis: 780px;
+	display: flex;
+	flex-direction: column;
+}
+.nord {
+	padding-left:  20px;
+	border-radius: 5px 5px 0px 0;
+	color: #FFFFFF;
+	font-family: calibri;
+	font-size: 16px;
+	background-color: #902A26;
+}
+.box_info {
+	padding-left: 20px;
+	border-radius: 0 0 5px 5px;
+	background-color: #FFFFFF;
+	display: flex;
+}
+.box_left {
+	
+	flex-basis: 260px;
+	display: flex;
+	flex-direction: column;
+}
+
+.times_top {
+	margin-top: 5px;
+	display: flex;
+}
+.A {
+	font: 26px calibri;
+}
+.band {
+	flex-basis: 70px;
+	background-image: url("https://reader016.staticloud.net/reader016/html5/20190617/5b636f1a7f8b9a3c5e8bf82a/bg1.png");
+	background-repeat: no-repeat;
+	background-size: 50px 30px;
+	background-position: 10px -3px;
+}
+.B {
+	font: 26px calibri;
+}
+.svo_led{
+
+	display: flex;
+	margin-top: 0px;
+}
+.svo {
+	font-family: calibri;
+	display: flex;
+	color: #828282;
+	margin-left: 0px;
+}
+.led {
+	font-family: calibri;
+	margin-left: 105px;
+	color: #828282;
+}
+
+.direction_in_the_way{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 15px;
+}
+.direction {
+	font-family: calibri;
+	font-size: 15px;
+	color: #008B00;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.in_the_way {
+	font-family: calibri;
+	color: #828282;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+.box_midle {
+	flex-basis: 228px;
+}
+.weigth_bag {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.weight {
+	margin-top: 8px;
+	font-family: calibri;
+}
+.bag {
+	font-family: calibri;
+}
+.box_riht {
+	display: flex;
+	flex-basis: 260px;
+
+}
+.price_top {
+	display: flex;
+	flex-direction: column;
+}
+.pr {
+	font-family: calibri;
+	font-size: 26px;
+	margin-top: 10px;
+	font-weight: bold;
+	text-align: right;
+	list-style-type: none;
+}
+.side {
+	
+	font-family: calibri;
+	color: #828282;
+	margin-left: 0px;
+	text-align: right;
+}
+.by {
+
+	display: flex;
+	align-items: center;
+}
+.butt_by {
+	padding: 10px 20px 10px 20px;
+	margin-left: 65px;
+	margin-bottom: 45px;
+	border-radius: 5px;
+	background-color: #4AAAF6;
+	color: #FFFFFF;
+	font-family: calibri;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+/*midle_box*/
+
+.seven {
+	padding-left:  20px;
+	border-radius: 5px 5px 0px 0;
+	color: #FFFFFF;
+	font-family: calibri;
+	font-size: 16px;
+	background-image: url("#");	
+	background-color: #C8D24B;
+}
+
+/*bottom_box*/
+
+.svn {
+	padding-left:  20px;
+	border-radius: 5px 5px 0px 0;
+	color: #FFFFFF;
+	font-family: calibri;
+	font-size: 16px;
+	background-image: url("#");	
+	background-color: #C8D24B;
+}
+
+/*bottom==================================================================================================*/
+.bottom_container {
+	display: flex;
+}
+.mail {
+	margin-top: 15px;
+	display: flex;
+	flex-basis: 760px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+.options {
+	list-style-type: none;
+	margin-right: 100px;
+	display: flex;
+	flex-direction: column;
+}
+.options_bott {
+	padding-top: 15px;
+	font-family: calibri;
+}
+.new_mission {
+	padding-bottom: 15px;
+	font-family: calibri;
+	color: #828282;
+	font-size: 15px;
+}
+.e_mail {
+	padding:10px;
+}
+.form {
+	display: flex;
+	padding: 10px;
+}
+.input {
+	font-family: calibri;
+	font-size: 15px;
+	padding: 7px 90px 7px 7px;
+	text-align: left;
+	border-radius: 5px;
+	border:solid 1px #828282;
+	color: #828282;
+}
+.input_email {
+	padding-right: 15px;
+}
+.seleckt {
+	display: flex;
+}
+.to_send {
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #FFFFFF;
+	outline: none;
+	border-radius: 5px;
+	border: solid 1px #0FC0FC;
+	color: #0FC0FC;
+}
+.subscription {
+	margin-top: -10px;
+	margin-left: 50px;
+}
+.end {
+	display: flex;
+}
+.end_str {
+	list-style-type: none;
+	flex-basis: 760px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px 0px 10px 20px;
+	flex-direction: column;
+	display: flex;
+}
+.a_train {
+	font-family: calibri;
+	font-size: 22px;
+	font-weight: bold;
+	
+}
+.moscow {
+	padding-top: 10px;
+	font-family: calibri;
+	color: #828282;
+	font-size: 15px;
+	
+}
+.ticket {
+	padding-top: 10px;
+	font-family: calibri;
+	color: #828282;
+	font-size: 15px;
+	
+}
